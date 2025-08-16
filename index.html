@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property Analytics SA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+    }
+    .suburbs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      background: #f9f9f9;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .card h2 {
+      margin-top: 0;
+    }
+    .compare-btn {
+      display: inline-block;
+      background: #0077cc;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1> Make the best rental decision for you based on data</h1>
+    <p>Explore average prices, crime rates, and more.</p>
+  </section>
+
+  <section class="search-bar" style="text-align: center; margin-bottom: 30px;">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search suburbs..."
+      style="padding: 10px 15px; width: 60%; max-width: 400px; font-size: 16px; border-radius: 8px; border: 1px solid #ccc;"
+    />
+  </section>
+  
+
+  <section class="suburbs">
+    <div class="card">
+      <h2>Woodstock</h2>
+      <p><strong>City:</strong> Cape Town </p>
+      <p><strong>Avg. rent:</strong> R14000 pm</p>
+      <p><strong>Crime score:</strong> 70</p>
+      <p><strong>Average Distance from the city (km):</strong> 2.7 km </p>
+
+    </div>
+    <div class="card">
+      <h2>Salt River</h2>
+      <p><strong>Avg. rent:</strong> R13,800 pm</p>
+      <p><strong>Crime score:</strong> 40</p>
+      <p><strong>Average Distance from the city:</strong> 3.9 km</p>
+    </div>
+
+    <div class="card">
+        <h2>Sea Point</h2>
+        <p><strong>Avg. rent:</strong> R16000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 5.4 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Green Point</h2>
+        <p><strong>Avg. rent:</strong> R16000 pm </p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Mowbray</h2>
+        <p><strong>Avg. rent:</strong> R9000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Rosebank</h2>
+        <p><strong>Avg. rent:</strong> R15000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Rondeborsh</h2>
+        <p><strong>Avg. rent:</strong> R12000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Zonneblom</h2>
+        <p><strong>Avg. rent:</strong> R15000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Cape Town City Centre</h2>
+        <p><strong>Avg. rent:</strong> R15000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Observatory </h2>
+        <p><strong>Avg. rent:</strong> R15000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Foreshore</h2>
+        <p><strong>Avg. rent:</strong> R16000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Oranjezicht</h2>
+        <p><strong>Avg. rent:</strong> R16000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+      
+      <div class="card">
+        <h2>Gardens</h2>
+        <p><strong>Avg. rent:</strong> R16000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+
+      <div class="card">
+        <h2>Vredehoek</h2>
+        <p><strong>Avg. rent:</strong> R16000 pm</p>
+        <p><strong>Crime score:</strong> 40</p>
+        <p><strong>Average Distance from the city:</strong> 3.3 km </p>
+      </div>
+  </section>
+
+  <section style="text-align: center;">
+    <a class="compare-btn" href="#">Compare Suburbs</a>
+  </section>
+
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const cards = document.querySelectorAll(".card");
+  
+    searchInput.addEventListener("input", function () {
+      const value = this.value.toLowerCase();
+  
+      cards.forEach((card) => {
+        const title = card.querySelector("h2").textContent.toLowerCase();
+        if (title.includes(value)) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  </script>
+  
+</body>
+</html>
